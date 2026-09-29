@@ -73,7 +73,7 @@ img{max-width:100%;display:block}
 .hero-dots button.is-active{background:var(--orange);border-color:var(--orange);transform:scale(1.15)}
 .hero-dots button:focus-visible{outline:2px solid #fff;outline-offset:3px}
 .hero-media .hero-badge{position:relative;z-index:2;background:rgba(25,58,96,.82);border:1px solid rgba(255,255,255,.22);border-radius:20px;padding:20px 26px;color:#fff;text-align:center;backdrop-filter:blur(4px);max-width:290px;margin:0 24px 24px 0}
-.hero-badge .kpi{font-family:var(--font-head);font-size:2.6rem;font-weight:800;color:#ffb48f}
+.hero-badge .kpi{font-family:var(--font-head);font-size:2.6rem;font-weight:800;color:var(--orange-dark)}
 .hero-badge small{font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:#dbe6f2}
 .hero-badge .kpi-row{display:flex;gap:34px;justify-content:center;margin-top:8px}
 .hero-badge .kpi-row div span{display:block;font-family:var(--font-head);font-size:1.35rem;font-weight:800;color:#fff}
