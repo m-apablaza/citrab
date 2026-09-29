@@ -228,4 +228,4 @@ img{max-width:100%;display:block}
 @media (prefers-reduced-motion:reduce){
   .hero-slide{transition:none}
 }
-.dark-section .eyebrow{color:#ffb48f}
+.dark-section .eyebrow{color:var(--orange)}
