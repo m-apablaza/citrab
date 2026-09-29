@@ -101,7 +101,7 @@ img{max-width:100%;display:block}
 .dark-section .lead{color:#b9c8d8}
 .dark-intro{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:end;margin-bottom:48px}
 .dark-intro .lead{margin-bottom:4px}
-.link-light{color:#ffb48f}
+.link-light{color:var(--orange)}
 .link-light:hover{color:#fff}
 .dark-section .rule{width:56px;height:4px;background:var(--orange);border-radius:2px;margin:6px 0 0}
 .study-card{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
