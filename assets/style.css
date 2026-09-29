@@ -72,7 +72,7 @@ img{max-width:100%;display:block}
 .hero-dots button{width:12px;height:12px;border-radius:50%;border:2px solid #fff;background:transparent;cursor:pointer;padding:0;transition:background .2s ease,transform .2s ease}
 .hero-dots button.is-active{background:var(--orange);border-color:var(--orange);transform:scale(1.15)}
 .hero-dots button:focus-visible{outline:2px solid #fff;outline-offset:3px}
-.hero-media .hero-badge{position:relative;z-index:2;background:rgba(0,51,161,.82);border:1px solid rgba(255,255,255,.22);border-radius:20px;padding:20px 26px;color:#fff;text-align:center;backdrop-filter:blur(4px);max-width:290px;margin:0 24px 24px 0}
+.hero-media .hero-badge{position:relative;z-index:2;background:rgba(25,58,96,.82);border:1px solid rgba(255,255,255,.22);border-radius:20px;padding:20px 26px;color:#fff;text-align:center;backdrop-filter:blur(4px);max-width:290px;margin:0 24px 24px 0}
 .hero-badge .kpi{font-family:var(--font-head);font-size:2.6rem;font-weight:800;color:#ffb48f}
 .hero-badge small{font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:#dbe6f2}
 .hero-badge .kpi-row{display:flex;gap:34px;justify-content:center;margin-top:8px}
@@ -106,8 +106,8 @@ img{max-width:100%;display:block}
 .dark-section .rule{width:56px;height:4px;background:var(--orange);border-radius:2px;margin:6px 0 0}
 .study-card{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
 .study-card .thumb{height:190px;display:grid;place-items:center;color:rgba(255,255,255,.9)}
-.thumb.t1{background:linear-gradient(135deg,#1a4bb0,#0033a1)}
-.thumb.t2{background:linear-gradient(135deg,#e8723c,#b34a1d)}
+.thumb.t1{background:linear-gradient(135deg,#3b6b57,#1d3f33)}
+.thumb.t2{background:linear-gradient(135deg,#3b6b57,#1d3f33)}
 .thumb.t3{background:linear-gradient(135deg,#3b6b57,#1d3f33)}
 .study-card .body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
 .chip{display:inline-block;align-self:flex-start;font-size:.66rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--cream);padding:5px 10px;border-radius:999px;border:1px solid var(--line)}
