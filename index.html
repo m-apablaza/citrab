@@ -8,13 +8,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Libre+Franklin:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="icon" href="logo-citrab.png" type="image/png">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/logo-citrab.png" type="image/png">
 </head>
 <body>
 <header class="site-header">
   <div class="header-inner">
-    <a class="brand" href="index.html"><img src="logo-citrab.png" alt="CITRAB — Conocimiento e Investigación del Mundo del Trabajo"></a>
+    <a class="brand" href="index.html"><img src="assets/logo-citrab.png" alt="CITRAB — Conocimiento e Investigación del Mundo del Trabajo"></a>
     <nav class="main-nav">
       <a href="index.html" class="active">Inicio</a><a href="investigaciones.html" class="">Investigaciones</a><a href="datos.html" class="">Datos</a><a href="temas.html" class="">Temas</a><a href="prensa.html" class="">Prensa</a><a href="el-centro.html" class="">El Centro</a><a href="equipo.html" class="">Equipo</a>
       <a class="btn btn-orange btn-sm" href="suscribete.html">Suscríbete</a>
@@ -34,7 +34,15 @@
         <a class="btn btn-outline" href="investigaciones.html">Ver investigaciones <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </div>
     </div>
-    <div class="hero-media">
+    <div class="hero-media" data-carousel>
+      <div class="hero-slides">
+        <img class="hero-slide is-active" src="assets/hero-1.jpg" alt="Trabajador con casco y lentes de seguridad en una planta industrial">
+        <img class="hero-slide" src="assets/hero-2.jpg" alt="Dos trabajadores revisan información en un computador portátil dentro de una fábrica" loading="lazy">
+      </div>
+      <div class="hero-dots" aria-label="Seleccionar imagen">
+        <button type="button" class="is-active" aria-label="Imagen 1" aria-current="true"></button>
+        <button type="button" aria-label="Imagen 2"></button>
+      </div>
       <div class="hero-badge">
         <small>Mercado laboral en cifras</small>
         <div class="kpi">9,4%</div>
@@ -65,13 +73,17 @@
 
 
 <section class="dark-section">
-  <div class="container dark-grid">
-    <div>
-      <span class="eyebrow">Investigación que importa</span>
-      <h2>Conocimiento para mejores decisiones</h2>
-      <p class="lead">Investigamos los grandes desafíos del trabajo para generar evidencia y contribuir al debate público y a las políticas públicas.</p>
-      <div class="rule"></div>
-      <a class="link-arrow" style="color:#ffb48f" href="investigaciones.html">Explorar todos los estudios <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  <div class="container">
+    <div class="dark-intro">
+      <div>
+        <span class="eyebrow">Investigación que importa</span>
+        <h2>Conocimiento para mejores decisiones</h2>
+        <div class="rule"></div>
+      </div>
+      <div>
+        <p class="lead">Investigamos los grandes desafíos del trabajo para generar evidencia y contribuir al debate público y a las políticas públicas.</p>
+        <a class="link-arrow link-light" href="investigaciones.html">Explorar todos los estudios <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
     </div>
     <div class="cards-3">
       <article class="study-card">
@@ -102,14 +114,16 @@
         </div>
       </article>
     </div>
-    <div>
-      <span class="eyebrow">En los medios</span>
-      <div class="press-list" style="margin-top:16px">
+    <div class="press-block">
+      <div class="press-head">
+        <span class="eyebrow">En los medios</span>
+        <a class="link-arrow link-light" href="prensa.html">Ver toda la prensa <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="press-list">
         <div class="press-item"><span class="src">La Tercera</span><a href="prensa.html">Los desafíos que enfrenta el mercado laboral chileno</a><span class="date">28 de agosto, 2024</span></div>
         <div class="press-item"><span class="src">Diario Financiero</span><a href="prensa.html">IA y productividad: ¿están las empresas chilenas preparadas?</a><span class="date">20 de agosto, 2024</span></div>
         <div class="press-item"><span class="src">Emol</span><a href="prensa.html">Talento senior: la experiencia que el país necesita</a><span class="date">14 de agosto, 2024</span></div>
       </div>
-      <a class="link-arrow" style="color:#ffb48f;margin-top:18px" href="prensa.html">Ver toda la prensa <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     </div>
   </div>
 </section>
@@ -120,7 +134,7 @@
   <div class="footer-main">
     <div class="footer-brand">
       <h4>Una iniciativa conjunta de</h4>
-      <img class="band" src="band-socios.png" alt="Los Héroes y Universidad del Desarrollo">
+      <img class="band" src="assets/band-socios.png" alt="Los Héroes y Universidad del Desarrollo">
       <p>CITRAB genera conocimiento y evidencia para comprender cómo está cambiando el mundo del trabajo en Chile.</p>
       <div class="social">
         <a href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.55V9h3.57v11.45z"/></svg></a>
@@ -156,5 +170,26 @@
     </div>
   </div>
 </footer>
+<script>
+(function(){
+  var root=document.querySelector('[data-carousel]');
+  if(!root) return;
+  var slides=root.querySelectorAll('.hero-slide');
+  var dots=root.querySelectorAll('.hero-dots button');
+  var i=0, timer=null;
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function show(n){
+    slides[i].classList.remove('is-active'); dots[i].classList.remove('is-active'); dots[i].removeAttribute('aria-current');
+    i=(n+slides.length)%slides.length;
+    slides[i].classList.add('is-active'); dots[i].classList.add('is-active'); dots[i].setAttribute('aria-current','true');
+  }
+  function start(){ if(!reduce){ stop(); timer=setInterval(function(){show(i+1);},6000); } }
+  function stop(){ if(timer){ clearInterval(timer); timer=null; } }
+  dots.forEach(function(d,n){ d.addEventListener('click',function(){ show(n); start(); }); });
+  root.addEventListener('mouseenter',stop);
+  root.addEventListener('mouseleave',start);
+  start();
+})();
+</script>
 </body>
 </html>
