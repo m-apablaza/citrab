@@ -2,9 +2,11 @@
 /* ============================================================
    CITRAB — Centro de Investigación Aplicada sobre el Trabajo
    y la Seguridad Social · hoja de estilos compartida
+
+  --navy:#0033a1;
    ============================================================ */
 :root{
-  --navy:#0033a1;
+  --navy:#255896;
   --navy-dark:#00297f;
   --navy-soft:#1a4bb0;
   --orange:#e8723c;
