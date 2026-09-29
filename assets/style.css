@@ -43,7 +43,7 @@ img{max-width:100%;display:block}
 .btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--font-head);font-weight:700;font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;padding:13px 22px;border-radius:999px;border:2px solid transparent;cursor:pointer;transition:all .2s ease}
 .btn svg{transition:transform .2s ease}
 .btn:hover svg{transform:translateX(4px)}
-.btn-orange{background:var(--orange);color:#fff}
+.btn-orange{background:var(--white);color:#fff}
 .btn-orange:hover{background:var(--orange-dark);color:#fff}
 .btn-navy{background:var(--navy);color:#fff}
 .btn-navy:hover{background:var(--navy-dark);color:#fff}
